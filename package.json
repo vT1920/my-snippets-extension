@@ -1,0 +1,30 @@
+{
+  "name": "snipets-extension",
+  "displayName": "My Snippets Extension",
+  "description": "A collection of simple snippets  for VS Code",
+  "publisher": "vtt",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vT1920/vscodeEXT.git"
+  },
+  "icon": "dragon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
