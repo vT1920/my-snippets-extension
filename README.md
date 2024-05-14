@@ -1,3 +1,13 @@
+
+## Installation
+
+1. Install Visual Studio Code 1.10.0 or higher
+2. Launch Code
+3. From the command palette `Ctrl`-`Shift`-`P` (Windows, Linux) or `Cmd`-`Shift`-`P` (OSX)
+4. Select `Install Extension`
+5. Choose the extension
+6. Reload Visual Studio Code
+
 ## Supported languages (file extensions)
 * JavaScript (.js)
 * TypeScript (.ts)
@@ -69,5 +79,77 @@ Below is a list of all available snippets and the triggers of each one. The **�
 | `clt→`   | console table `console.table` |
 | `cti→`   | console time `console.time` |
 | `cte→`   | console timeEnd `console.timeEnd` |
+
+
+### HTML Snippets
+
+| Trigger              | Content                                             |
+| -------------------- | --------------------------------------------------- |
+| `a-class`            | `[class]` binding                                   |
+| `a-select`           | `<select>` control                                  |
+| `a-style`            | `[style]` binding                                   |
+| `a-ngClass`          | `ngClass`                                           |
+| `a-ngFor`            | `*ngFor`                                            |
+| `a-ngForAsync`       | `*ngFor` with async                                 |
+| `a-ngFor-trackBy`    | `*ngFor` with trackBy                               |
+| `a-form`             | create a form tag with ngSubmit and form attributes |
+| `a-formArrayName`    | `formArrayName`                                     |
+| `a-formControlName`  | `formControlName`                                   |
+| `a-formGroup`        | `formGroup`                                         |
+| `a-formGroupName`    | `formGroupName`                                     |
+| `a-form-submit`      | create a submit button for a form                   |
+| `a-ngIf`             | `*ngIf`                                             |
+| `a-ngIfElse`         | `*ngIf` with `else`                                 |
+| `a-ngModel`          | `ngModel`                                           |
+| `a-routerLink`       | `routerLink`                                        |
+| `a-routerLink-param` | `routerLink` with a route parameter                 |
+| `a-ngStyle`          | `ngStyle`                                           |
+| `a-ngSwitch`         | `ngSwitch`                                          |
+| `a-prej`             | show the JSON form of a model                       |
+| `a-preja`            | show the JSON form of a model, using async          |
+| `a-ng-container`     | `<ng-container>` element                            |
+| `a-ng-template`      | `<ng-template>` element                             |
+| `a-ng-content`       | `<ng-content>` element                              |
+
+
+### TypeScript Angular Snippets
+
+| Trigger                      | Content                                                              |
+| ---------------------------- | -------------------------------------------------------------------- |
+| `a-component`                | component                                                            |
+| `a-component-standalone`     | standalone component                                                 |
+| `a-component-inline`         | component with inline template                                       |
+| `a-component-root`           | root app component                                                   |
+| `a-ctor-skip-self`           | angular `NgModule`'s `skipself` constructor                          |
+| `a-directive`                | directive                                                            |
+| `a-guard-can-activate`       | `CanActivate` guard                                                  |
+| `a-guard-can-activate-child` | `CanActivateChild` guard                                             |
+| `a-guard-can-deactivate`     | `CanDeactivate` guard                                                |
+| `a-guard-can-match`          | `CanMatch` guard                                                     |
+| `a-httpclient-get`           | `httpClient.get` with Rx Observable                                  |
+| `a-http-interceptor`         | Empty Angular `HttpInterceptor` for `HttpClient`                     |
+| `a-http-interceptor-headers` | Angular `HttpInterceptor` that sets headers for `HttpClient`         |
+| `a-http-interceptor-logging` | Angular `HttpInterceptor` that logs traffic for `HttpClient`         |
+| `a-module`                   | module                                                               |
+| `a-module-root`              | root app module                                                      |
+| `a-output-event`             | `@Output` event and emitter                                          |
+| `a-pipe`                     | pipe                                                                 |
+| `a-preload-opt-in-strategy`  | custom preload strategy that allows choosing which routes to preload |
+| `a-preload-network-strategy` | custom preload strategy that preloads based on network connectivity  |
+| `a-resolver`                 | resolver                                                             |
+| `a-routes`                   | Route definition file                                                |
+| `a-rxjs-import`              | import RxJs features                                                 |
+| `a-rxjs-operators`           | import RxJs operators                                                |
+| `a-route-path-404`           | 404 route path                                                       |
+| `a-route-path-default`       | default route path                                                   |
+| `a-route-path-with-children` | route path with children                                             |
+| `a-route-path-eager`         | eager route path                                                     |
+| `a-route-path-lazy`          | lazy route path                                                      |
+| `a-router-events`            | listen to one or more router events                                  |
+| `a-route-params-subscribe`   | subscribe to route parameters                                        |
+| `a-service`                  | service with injectable provided in root                             |
+| `a-service-httpclient`       | service with `HttpClient`                                            |
+| `a-subscribe`                | Rx Observable subscription                                           |
+| `a-trackby`                  | to create a trackby function in TypeScript for the `ngFor`           |
 
 [code]: https://code.visualstudio.com/

@@ -1,5 +1,4 @@
 {
-    // JAVASCRIPT SNIPPET
     "import": {
       "prefix": "imp",
       "body": "import ${2:moduleName} from '${1:module}';$0",
@@ -222,17 +221,6 @@
       "prefix": "cte",
       "body": "console.timeEnd(${1:object});",
       "description": "Sets end point for execution time measurement"
-    },
-
-    //HTML SNIPPET
-    "doctype": {
-        "prefix": "doctype",
-        "body": [
-            "<!DOCTYPE>",
-            "$1"
-            ],
-        "description": "HTML - Defines the document type",
-        "scope": "text.html"
-        },
-  }
+    }
+}
   
